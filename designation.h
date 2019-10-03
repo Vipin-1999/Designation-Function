@@ -28,13 +28,3 @@ class Designation       {
 };
 
 #endif
-
-// NBIND_CLASS (DESIGNATION) {
-//     construct<>();
-//     method(Random);
-//     multimethod(Validate, args(std::string));
-//     multimethod(Validate, args(std::string, int));
-//     multimethod(Validate, args(std::string , std::string));
-//     method(Add);
-//     method(Remove);
-// }

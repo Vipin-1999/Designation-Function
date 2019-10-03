@@ -4,8 +4,9 @@ using namespace std;
 
 int main()      {
     Designation d;
-    d.Add("CEO");
     d.VectorInit();
-    cout << d.Validate("CEO") << endl;
+    d.Add("Janitor");
+    cout << d.Validate("Janitor") << endl;
+    cout << d.Validate("Ceo") << endl;
     return 0;
 }
